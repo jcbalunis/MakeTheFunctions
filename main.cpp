@@ -50,6 +50,10 @@ bool isPositive( int numofcell )
     {
     return true;
     }
+    else 
+    {
+    return false;
+    }
 }
 
 void fillWith ( vector <int> & numvector, int fillNum)
@@ -66,7 +70,6 @@ void printVector ( vector <int> numvector)
        cout<< numvector[i];
        cout<< " ";
     }
-    cout<<endl;
 }
 
 
